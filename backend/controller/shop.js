@@ -59,7 +59,7 @@ router.post("/create-shop", catchAsyncErrors(async (req, res, next) => {
 
     const activationToken = createActivationToken({_id:seller._id});
 
-    const activationUrl = `https://kala-art.vercel.app/activation/${activationToken}`;
+    const activationUrl = `https://kala-art.vercel.app/seller/activation/${activationToken}`;
     console.log("activationURL---", activationUrl);
     
 
