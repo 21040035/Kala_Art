@@ -9,7 +9,7 @@ const cors = require("cors");
 app.use(cors({
   origin: ['https://kala-art.vercel.app/',],
   credentials: true
-  optionSuccessStatus:200
+  
 }));
 
 
