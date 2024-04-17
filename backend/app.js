@@ -7,7 +7,7 @@ const cors = require("cors");
 const crypto = require('crypto');
 
 app.use(cors({
-  origin: ['http://localhost:3000',],
+  origin: ['https://kala-art.vercel.app/',],
   credentials: true
 }));
 
